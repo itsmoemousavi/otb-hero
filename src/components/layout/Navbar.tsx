@@ -19,7 +19,9 @@ const Navbar = () => {
   return (
     <nav className="flex items-center justify-between py-6 px-6 lg:px-20 max-w-[1440px] mx-auto w-full absolute top-0 left-0 right-0 z-50">
       <div className="flex items-center">
-        <img src={logo} alt="Jadoo Logo" />
+        <a href="/">
+          <img src={logo} alt="Jadoo Logo" />
+        </a>
       </div>
 
       <div className="hidden md:flex items-center lg:gap-10 gap-4">
