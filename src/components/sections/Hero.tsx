@@ -6,8 +6,12 @@ import ladyImage from "@/assets/image.webp";
 const Hero = () => {
   return (
     <section className="relative pt-32 pb-16 md:pt-32 md:pb-32 overflow-hidden">
-      <div className="absolute top-0 right-0 -z-10">
-        <img src={backgroundDecore} alt="Background Decore" />
+      <div className="absolute top-0 right-0 -z-10 ">
+        <img
+          src={backgroundDecore}
+          alt="Background Decore"
+          className="max-h-[600px]"
+        />
       </div>
 
       <div className="max-w-[1440px] mx-auto px-6 lg:px-20 grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-0 items-center">
