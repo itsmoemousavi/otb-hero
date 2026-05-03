@@ -1,0 +1,14 @@
+@import "tailwindcss";
+
+@theme {
+  --color-text: #181e4b;
+  --color-primary: #f1a501;
+  --color-secondary: #f9fafb;
+  --color-accent: #df6951;
+  --color-subtitle: #5e6282;
+  --color-menu-items: #212832;
+}
+
+* {
+  box-sizing: border-box;
+}
